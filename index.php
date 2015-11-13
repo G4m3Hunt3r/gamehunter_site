@@ -1,41 +1,51 @@
-<html>
+<!doctype   html    public "-//w3c//dtd xhtml 1.0 strict//en"
+"http://www.w3.org/TR/XHTML1/DTD/XHTML1-STRICT.DTD">
+<html lang="pt-br">
     <head>
-        <meta charset="UTF-8">
-        <title>Game Hunter | Home</title>
-		<link rel="icon" href="imagens/ico.ico" type="image/x-icon" />
-        <link rel="shortcut icon" href="imagens/icon.ico" type="image/x-icon" />
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+            <link href="CssMain/mainStyle.css" rel="stylesheet" type="text/plain"/>
+        <title>GameHunter</title>
     </head>
     <body>
-        <ul>
-            <li><a href="home.php">Home</a></li>
-            <li><a href="meusj.php">Meus Jogos</a></li>
-            <li><a href="amigos.php">Amigos</a></li>
-            <li><a href="perfil.php">Perfil</a></li>
-        </ul>
-        <h1>Bem-vindo!</h1>
-        <h2>Para ter total acesso, por favor faça o <a href="login.php">login</a> com a sua conta do facebook.</h2>
-        <ul>
-            <li><h3>Noticias</h3></li>
-            <li>Nova expansao World of Warcraf Legion e anunciada na BlizzCon.</li>
-            <li>Overwatch ganha edicoes especiais e versoes para PS4 e Xbox One.</li>
-            <li>StarCraft 2: Nova Covert Ops continuara a historia do game em DLC.</li>
-            <li><h5><a href="noticias.php">Ver todas</a></h5></li>
-        </ul>
-        <ul>
-            <li><h3>Ultimos lancamentos</h3></li>
-            <li>Call Of Duty:Black Ops III 
-                <p>Plataformas: Xbox One, PS4, Xbox 360, PS3 e PC</p>
-                <p>Data de lancamento: 06/11/2015</p>
-            </li>
-            <li>Need for Speed 2015 
-                <p>Plataformas: Xbox One, PS4 e PC</p>
-                <p>Data de lancamento: 03/11/2015</p>
-            </li>
-            <li>FIFA 16
-                <p>Plataformas: Xbox One, PS4, Xbox 360, PS3 e PC</p>
-                <p>Data de lancamento: 22/09/2015</p>
-            </li>
-            <li><a href="lanc.php"><h5>Ver todos</h5></a></li>
-        </ul>
+        <main>
+            <nav id="menuGrande">
+                <div id="logoMenu">
+                    <img class="LogoImg" src="Image/Logo.jpg" alt="Logo GameHunter" />
+                </div>
+                <div id="menuPequeno">
+                    <ul>
+                        <a href="index.php"><li class="liMenu"><span class="spanMenu">Home</span></li></a>
+                        <a href="index.php"><li class="liMenu"><span class="spanMenu">Meus Jogos</span></li></a>
+                        <a href="index.php"><li class="liMenu"><span class="spanMenu">Amigos</span></li></a>
+                        <a href="index.php"><li class="liMenu"><span class="spanMenu">Perfil</span></li></a>
+                    </ul>
+                </div>
+            </nav>
+            <center>
+                <div id="top">
+                    <p>Para ter total acesso, por favor faça<br />
+                       o <a href="" id="merda">login</a> com sua conta <br /> 
+                       do Facebook.
+                    </p>
+                </div>
+                <div id="bot" style="background:#cccccc;">
+                    <div id="esquerda">
+                        <h3>Notícias</h3>
+                        <div id="esquerdaDentro">
+                            <div>
+                                <div>
+                                    <img src="" />
+                                </div>
+                                <div>
+                                    <p>mmmm</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="direita">
+                    </div>
+                </div>
+            </center>
+        </main>
     </body>
 </html>

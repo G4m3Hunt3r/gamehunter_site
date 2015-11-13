@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:helvetica, arial, sans-serif;
+}
+main {
+    width: 960px;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow: 2px 2px 2px #888888;
+    -webkit-box-shadow: 2px 2px 2px #888888;
+    -o-box-shadow: 2px 2px 2px #888888;
+    -moz-box-shadow: 2px 2px 2px #888888;
+    -ms-box-shadow: 2px 2px 2px #888888;
+}
+#menuGrande {
+    background: #5FAA67;
+    height: 100px;
+}
+#logoMenu {
+    float: left;
+}
+#menuPequeno {
+    float: right;
+    width: 759.75px;
+    height: 100px;
+}
+.LogoImg {
+    width: 200px;
+}
+.liMenu {
+    padding: 40px 57px 40px 57px;
+    list-style: none;
+    float: left;
+}
+.spanMenu {
+    font-size: 20px;
+}
