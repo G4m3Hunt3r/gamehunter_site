@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:helvetica, arial, sans-serif;
+}
+main {
+    width: 1600px;
+    margin: 0 auto;
+    background: #ffffff;
+    /*border: 1px solid #888888;
+    box-shadow: 2px 2px 2px #888888;
+    -webkit-box-shadow: 2px 2px 2px #888888;
+    -o-box-shadow: 2px 2px 2px #888888;
+    -moz-box-shadow: 2px 2px 2px #888888;
+    -ms-box-shadow: 2px 2px 2px #888888;*/
+}
+footer {
+    width: 1600px;
+    height: 100px;
+    margin: 0px auto;
+    background: #5FAA67;
+    border-bottom: 2px solid #888888;
+}
+.pFooterA {
+    padding: 40px;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 15px;
+}
+#menuGrande {
+    background: #5FAA67;
+    height: 100px;
+    border-bottom: 2px solid #888888;
+}
+#logoMenu {
+    float: left;
+}
+#menuPequeno {
+    float: right;
+    width: 960.75px;
+    height: 100px;
+}
+.LogoImg {
+    width: 175px;
+}
+.liMenu {
+    padding: 40px 57px 40px 57px;
+    list-style: none;
+    float: left;
+}
+.spanMenu {
+    font-size: 20px;
+    color: #ffffff;
+}
+.spanMenu:hover {
+    color: #222222;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+}
+#center {
+    //background: #000000;
+    width: 1080px;
+    margin: 0 auto;
+    height: 648px;
+}
+#top {
+    height: 200px;
+}
+.titleA  {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: #222222;
+}
+.pA {
+    text-align: center;
+    font-size: 22px;
+    color: #222222;
+}
+.linkA {
+    color: #5FAA67;
+    text-decoration: none;
+}
+.linkB {
+    color: #5FAA67;
+    text-decoration: none;
+}
+#bot {
+    height: 400px;
+}
+#esquerda {
+    width: 480px;
+    height: 400px;
+    float: left;
+    //background: #cc0000;
+}
+#esquerdaDentro {
+    
+}
+#direita {
+    width: 480px;
+    height: 400px;
+    float: right;
+    //background: #00cc00;
+}
+#direitaDentro {
+    
+}
+.lastNewsA {
+    width: 400px;
+    height: 100px;
+    margin: 5px 40px 0px 39px;
+    //background: #0000cc;    
+}
+.lastNewsImg {
+    margin: 10px 0px 0px 10px;
+    float: left;
+}
+.lastNewsImgA {
+    width: 140px;
+}
+.lastNewsTxt {
+    margin: 15px 10px 0px 0px;
+    float: right;
+    color: #000000;
+}
+.titleB {
+    margin: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: #222222;
+}
+.titleC {
+    text-align: center;
+    font-size: 16px;
+    color: #222222;
+}
